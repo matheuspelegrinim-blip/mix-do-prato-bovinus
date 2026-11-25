@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olhar do Prato · Bovinu'S</title><link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar"><div class="brand"><span class="brand-mark">◉</span><span>OLHAR <strong>DO PRATO</strong><small>FMU TECH × BOVINU'S</small></span></div><span class="chip"><span class="dot"></span> Protótipo experimental</span></header>
+    <main>
+      <div class="intro"><div><p class="eyebrow">HACKATHON 2026 · ALMOÇO POR QUILO</p><h1>Uma nova visão<br><span>sobre o prato.</span></h1><p class="lead">Uma experiência com inteligência artificial para investigar a composição dos pratos servidos no Bovinu'S Augusta.</p></div><div class="intro-note"><span class="mini-label">O QUE QUEREMOS DESCOBRIR</span><p>Quanto do peso total de um prato pode ser frango?</p><span class="rule"></span><small>Estimativa experimental a partir de uma foto e do peso total informado.</small></div></div>
+      <div class="main-grid">
+        <section class="panel input-panel"><div class="panel-head"><div><p class="eyebrow">01 · ENTRADA</p><h2>Analise um prato</h2></div><span class="panel-symbol">↗</span></div><p class="sub">Selecione um exemplo ou envie sua própria foto.</p>
+          <div class="examples-title">EXEMPLOS DO CONJUNTO DE TESTE <span>FOTOS REAIS</span></div>
+          <div class="samples" id="samples" aria-label="Exemplos de pratos"></div>
+          <div class="divider"><span>OU</span></div>
+          <label class="upload" id="upload-label" for="photo"><span class="upload-icon">＋</span><span><strong>Escolher uma foto</strong><small>JPG ou PNG · até 6 MB</small></span><span class="upload-action">Selecionar</span></label><input type="file" id="photo" accept="image/png,image/jpeg" hidden>
+          <label class="field-label" for="mass">Peso total da comida <span>em gramas</span></label><div class="input-wrap"><input id="mass" type="number" min="1" max="10000" step="0.1" placeholder="Ex.: 315" required><span>g</span></div><p class="hint">Informe o peso líquido da comida, sem o prato. A balança não está conectada nesta demonstração.</p>
+          <button id="analyze" class="primary">Analisar prato <span>✦</span></button><p id="error" class="error" role="alert"></p>
+        </section>
+        <section class="panel output-panel"><div class="panel-head"><div><p class="eyebrow">02 · RESULTADO</p><h2>O que o modelo vê</h2></div><span class="panel-symbol">✦</span></div><p class="sub">Foto e peso total geram duas previsões independentes.</p>
+          <div class="image-stage" id="image-stage"><div class="empty" id="empty"><span class="empty-icon">◌</span><strong>Seu prato aparecerá aqui</strong><small>Escolha uma imagem para começar</small></div><img id="preview" alt="Foto do prato selecionado" hidden><span class="image-tag" id="image-tag" hidden>FOTO DO PRATO</span></div>
+          <div id="results" class="results" hidden aria-live="polite"><div class="result-title"><span class="result-icon">✦</span><div><small>ESTIMATIVA DE FRANGO</small><strong><span id="estimate">—</span> <em>g</em></strong></div><span id="reference" class="reference" hidden></span></div><div class="result-details"><div><small>CLASSIFICAÇÃO DE PRESENÇA</small><strong id="presence">—</strong></div><div><small>PROPORÇÃO ESTIMADA</small><strong id="proportion">—</strong></div></div><p class="model-warning">Modelos independentes: a presença e o peso estimados podem divergir. O resultado não é uma medição.</p></div>
+          <div id="placeholder" class="placeholder"><span class="placeholder-icon">✧</span><div><strong>Veja a estimativa aqui</strong><small>A análise aparece após selecionar a foto e informar o peso.</small></div></div>
+        </section>
+      </div>
+      <section class="insight"><div><p class="eyebrow">TRANSPARÊNCIA DO EXPERIMENTO</p><h2>O que o primeiro teste mostrou</h2><p>Usamos pratos reais do Nutrition5k, com um conjunto separado para avaliar. O modelo ainda precisa de melhorias e testes no restaurante.</p></div><div class="metrics"><div><strong>300</strong><span>pratos no treino</span></div><div><strong>100</strong><span>pratos no teste</span></div><div><strong>29,4 <em>g</em></strong><span>erro médio de massa</span></div><div><strong>67%</strong><span>acerto de presença*</span></div></div><p class="insight-foot">*No mesmo teste, responder sempre “sem frango” acertaria 85%, pois a maioria dos pratos não tinha frango. Nos 15 pratos com frango, o erro médio de massa foi 42,4 g. Dados coletados em cafeterias dos EUA; não validados no Bovinu'S.</p></section>
+    </main><footer><span>OLHAR DO PRATO · HACKATHON FMU TECH 2026.2</span><span>Fotos de demonstração: Nutrition5k / Google Research · CC BY 4.0</span></footer>
+  </div><script src="/assets/main.js" defer></script>
+</body></html>
