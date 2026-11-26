@@ -6,7 +6,7 @@ Quanto do peso de um prato por quilo corresponde a frango? Essa informação pod
 
 ## Slides do protótipo do projeto
 
-[Ver a apresentação do Mix do Prato (PDF)](apresentacao-mix-do-prato.pdf)
+[Ver a apresentação do Mix do Prato (PDF)](Mix%20do%20Prato%20_%20Hackathon%20FMU%20e%20Bovinu%27S.pdf)
 
 
 ## Problema e proposta
