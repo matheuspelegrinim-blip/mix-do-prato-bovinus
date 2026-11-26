@@ -1,4 +1,4 @@
-# Mix do Prato — Bovinu’S Augusta
+<img width="2048" height="928" alt="image" src="https://github.com/user-attachments/assets/8db3059d-605c-4db4-8a3d-f67811d8ce3e" /># Mix do Prato — Bovinu’S Augusta
 
 **Hackathon FMU Tech 2026.2 · Protótipo de análise do prato servido**
 
@@ -20,7 +20,13 @@ Na aplicação, escolha uma amostra disponível ou envie uma foto, informe o pes
 
 ![Exemplos de pratos do conjunto de teste e estimativas do modelo](projeto_mix_prato/docs/exemplos_teste.png)
 
-**Pendente para a entrega:** adicionar até cinco capturas de tela reais da aplicação em funcionamento. A imagem acima ilustra resultados do teste e não é uma captura da interface.
+**Pendente para a entrega:  <img width="1385" height="628" alt="Captura de Tela 2026-11-25 às 22 04 21" src="https://github.com/user-attachments/assets/bcf0acf5-6a7d-4191-9074-f1d6ec2799e1" /> <img width="2048" height="1009" alt="image" src="https://github.com/user-attachments/assets/e84699bf-a8fd-44e2-82f4-3c3490579a3e" />
+
+
+
+
+
+
 
 O [notebook de treinamento](projeto_mix_prato/treinamento/experimento_colab.ipynb) e o [script equivalente](projeto_mix_prato/treinamento/treinar_e_avaliar.py) mostram como o experimento foi feito. Reexecutá-los exige baixar uma amostra do Nutrition5k.
 
