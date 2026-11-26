@@ -22,7 +22,7 @@ Na aplicação, escolha uma amostra disponível ou envie uma foto, informe o pes
 
 **Pendente para a entrega:** adicionar até cinco capturas de tela reais da aplicação em funcionamento. A imagem acima ilustra resultados do teste e não é uma captura da interface.
 
-O [notebook de treinamento](treinamento/experimento_colab.ipynb) e o [script equivalente](treinamento/treinar_e_avaliar.py) mostram como o experimento foi feito. Reexecutá-los exige baixar uma amostra do Nutrition5k.
+O [notebook de treinamento](projeto_mix_prato/treinamento/experimento_colab.ipynb) e o [script equivalente](projeto_mix_prato/treinamento/treinar_e_avaliar.py) mostram como o experimento foi feito. Reexecutá-los exige baixar uma amostra do Nutrition5k.
 
 ## Experimente o protótipo
 
