@@ -18,8 +18,9 @@ Na aplicação, escolha uma amostra disponível ou envie uma foto, informe o pes
 
 ![Exemplos de pratos do conjunto de teste e estimativas do modelo](projeto_mix_prato/docs/exemplos_teste.png)
 
+## Slides do protótipo do projeto
 
-*<img width="1385" height="628" alt="Captura de Tela 2026-11-25 às 22 04 21" src="https://github.com/user-attachments/assets/bcf0acf5-6a7d-4191-9074-f1d6ec2799e1" /> <img width="2048" height="1009" alt="image" src="https://github.com/user-attachments/assets/e84699bf-a8fd-44e2-82f4-3c3490579a3e" />
+<img width="1385" height="628" alt="Captura de Tela 2026-11-25 às 22 04 21" src="https://github.com/user-attachments/assets/bcf0acf5-6a7d-4191-9074-f1d6ec2799e1" /> <img width="2048" height="1009" alt="image" src="https://github.com/user-attachments/assets/e84699bf-a8fd-44e2-82f4-3c3490579a3e" />
 
 
 
