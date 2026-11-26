@@ -4,6 +4,11 @@ Quanto do peso de um prato por quilo corresponde a frango? Essa informação pod
 
 > **Status:** experimento inicial. Os resultados ainda têm erro elevado e **não servem para decisões operacionais ou financeiras**. A foto é enviada e o peso informado no aplicativo; não há câmera ou balança conectada no protótipo.
 
+## Slides do protótipo do projeto
+
+[Ver a apresentação do Mix do Prato (PDF)](apresentacao-mix-do-prato.pdf)
+
+
 ## Problema e proposta
 
 No almoço por quilo, o cliente se serve, pesa o prato e escolhe uma mesa. A balança informa o peso total da comida, mas não separa os alimentos que compõem esse peso. Como alimentos diferentes têm custos diferentes, conhecer o mix dos pratos pode apoiar futuras análises do restaurante.
