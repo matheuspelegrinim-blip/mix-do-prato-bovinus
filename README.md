@@ -18,7 +18,7 @@ Nossa proposta é investigar se um modelo de aprendizado de máquina, alimentado
 
 Na aplicação, escolha uma amostra disponível ou envie uma foto, informe o peso líquido da comida em gramas e veja as saídas do experimento. O sistema apresenta uma classificação de presença e uma estimativa de massa para frango. Essas saídas vêm de **dois modelos independentes e podem discordar**. A pontuação apresentada pelo classificador não é uma probabilidade calibrada.
 
-![Exemplos de pratos do conjunto de teste e estimativas do modelo](docs/exemplos_teste.png)
+![Exemplos de pratos do conjunto de teste e estimativas do modelo](projeto_mix_prato/docs/exemplos_teste.png)
 
 **Pendente para a entrega:** adicionar até cinco capturas de tela reais da aplicação em funcionamento. A imagem acima ilustra resultados do teste e não é uma captura da interface.
 
@@ -61,9 +61,9 @@ Entre os 15 pratos com frango, o erro médio da estimativa foi de **42,4 g**. Um
 
 Os gráficos ajudam a visualizar os resultados do primeiro modelo nos 100 pratos reservados para teste. As duas tarefas usam modelos independentes: uma identifica a presença de frango e a outra estima a quantidade em gramas.
 
-![Gráfico de acertos e erros na identificação de frango](docs/grafico_acertos.png)
+![Gráfico de acertos e erros na identificação de frango](projeto_mix_prato/docs/grafico_acertos.png)
 
-![Gráfico de erro médio na estimativa do peso de frango](docs/grafico_peso.png)
+![Gráfico de erro médio na estimativa do peso de frango](projeto_mix_prato/docs/grafico_peso.png)
 
 Os dados são do Nutrition5k; o modelo ainda não foi validado no Bovinu’S.
 
