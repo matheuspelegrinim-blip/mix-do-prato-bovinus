@@ -1,5 +1,3 @@
-<img width="2048" height="928" alt="image" src="https://github.com/user-attachments/assets/8db3059d-605c-4db4-8a3d-f67811d8ce3e" /># Mix do Prato — Bovinu’S Augusta
-
 **Hackathon FMU Tech 2026.2 · Protótipo de análise do prato servido**
 
 Quanto do peso de um prato por quilo corresponde a frango? Essa informação pode ajudar a equipe do Bovinu’S a entender a composição dos pratos, uma das dores apresentadas para a unidade Augusta. Nosso projeto é uma **prova de conceito** que experimenta estimar a presença e a quantidade de frango a partir da foto do prato e do peso total da comida.
