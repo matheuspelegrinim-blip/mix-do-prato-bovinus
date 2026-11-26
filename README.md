@@ -24,8 +24,9 @@ Na aplicação, escolha uma amostra disponível ou envie uma foto, informe o pes
 
 
 
-## Vídeo da demonstração [Assistir ao Mix do Prato em funcionamento] (https://youtu.be/N_XuUvVgNXM)
+## Vídeo da demonstração 
 
+[Assistir ao Mix do Prato em funcionamento](https://youtu.be/N_XuUvVgNXM)
 
 
 
