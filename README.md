@@ -24,6 +24,10 @@ Na aplicação, escolha uma amostra disponível ou envie uma foto, informe o pes
 
 O [notebook de treinamento](treinamento/experimento_colab.ipynb) e o [script equivalente](treinamento/treinar_e_avaliar.py) mostram como o experimento foi feito. Reexecutá-los exige baixar uma amostra do Nutrition5k.
 
+## Experimente o protótipo
+
+[Abrir o Mix do Prato](https://matheuspelegrinim-blip.github.io/mix-do-prato-bovinus/)
+
 ## Como funciona
 
 1. A pessoa envia a **foto do prato** e informa o **peso líquido total** da comida.
